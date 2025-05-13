@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swastik Manna | Creative Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="about.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@400..700&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Italiana&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Jockey+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+</style>
+    
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">heaven_swastik</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="mobile-menu-btn">≡</button>
+    </nav>
+
+    <!-- Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+
+    <!-- JavaScript -->
+    
+   
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">heaven_swastik</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="mobile-menu-btn">≡</button>
+    </nav>
+
+    <!-- Hero Section -->
+<!-- Hero Section --> 
+<section id="home" class="hero">
+    <!-- Background Elements -->
+    <div class="hero-bg">
+        <canvas class="matrix-code" id="matrixCanvas"></canvas>
+        <div class="hero-glitch-effect"></div>
+        <div class="glowing-sphere"></div>
+    </div>
+    
+    <!-- Floating Decorative Elements -->
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+        <div class="shape shape-5"></div>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="container">
+        <div class="hero-grid">
+            <!-- Text Content -->
+            <div class="hero-content">
+                <p class="hero-subtitle" id="typed-subtitle">Creative Frontend Developer & Freelance Tech Visionary</p>
+                <h1 class="hero-title" data-text="Hi, I'm Swastik">Hi, I'm <span class="highlight">Swastik</span></h1>
+                <div class="hero-text">
+                    <span class="typing-effect" id="typed-text">I specialize in Video Editing, Photo Editing, Graphic Design, and Web Development.</span>
+                </div>
+                
+                <!-- Call to Action Buttons -->
+                <div class="cta-container">
+                    <a href="#portfolio" class="cta-btn">
+                        View My Work
+                        <span class="btn-icon">&#8594;</span>
+                    </a>
+                    <a href="#contact" class="cta-btn secondary">
+                        Contact Me
+                        <span class="btn-icon">&#8594;</span>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Profile Image Container -->
+            <div class="hero-image-container">
+                <div class="hero-image">
+                    <img src="me.jpg" alt="Profile Image" class="profile-image">
+                    
+                    <!-- Decorative UI Elements Around Image -->
+                    <div class="ui-element ui-element-1"></div>
+                    <div class="ui-element ui-element-2"></div>
+                    <div class="ui-element ui-element-3"></div>
+                    <div class="ui-element ui-element-4"></div>
+                    
+                    <!-- Tech Stats Overlays -->
+                    <div class="tech-stat tech-stat-1">
+                        <div class="stat-icon">⚡</div>
+                        <div class="stat-text">Frontend</div>
+                    </div>
+                    <div class="tech-stat tech-stat-2">
+                        <div class="stat-icon">🔮</div>
+                        <div class="stat-text">UX/UI</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Tech Decorator -->
+    <div class="tech-decorator">
+        <div class="circuit-line circuit-1"></div>
+        <div class="circuit-line circuit-2"></div>
+        <div class="circuit-node node-1"></div>
+        <div class="circuit-node node-2"></div>
+        <div class="circuit-node node-3"></div>
+    </div>
+    
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+        <div class="mouse"></div>
+        <div class="scroll-text">Scroll Down</div>
+    </div>
+</section>
+
+    <!-- About Section -->
+<!-- About Me Section -->
+<section id="about" class="about-section">
+    <div class="container">
+        <div class="about-content">
+            <div class="about-text">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-description">
+                    <p>As a Creative Frontend Developer and Freelance Tech Visionary, I craft digital experiences that blend cutting-edge technology with innovative design. My passion lies in transforming complex ideas into seamless, intuitive interfaces that captivate and engage.</p>
+                    <p>With a multidisciplinary approach, I specialize in creating responsive websites, producing compelling video content, and developing eye-catching visual designs that tell a unique story.</p>
+                </div>
+                <div class="skills-preview">
+                    <div class="skill-chip">Web Development</div>
+                    <div class="skill-chip">UI/UX Design</div>
+                    <div class="skill-chip">Video Editing</div>
+                    <div class="skill-chip">Graphic Design</div>
+                </div>
+            </div>
+            <div class="about-visual">
+                <div class="tech-window">
+                    <div class="window-header">
+                        <div class="window-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <span class="window-title">profile.js</span>
+                    </div>
+                    <div class="window-content">
+                        <code>
+                            <span class="code-keyword">const</span> <span class="code-variable">swastik</span> = {
+                            <br>    <span class="code-key">skills</span>: [
+                            <br>        <span class="code-string">"Frontend Development"</span>,
+                            <br>        <span class="code-string">"UI/UX Design"</span>,
+                            <br>        <span class="code-string">"Video Editing"</span>,
+                            <br>        <span class="code-string">"Graphic Design"</span>,
+                            <br>    ],
+                            <br>    <span class="code-key">expertise</span>: {
+                            <br>        <span class="code-key">technologies</span>: [
+                            <br>            <span class="code-string">"PHP"</span>,
+                            <br>            <span class="code-string">"JavaScript"</span>,
+                            <br>            <span class="code-string">"CSS"</span>,
+                            <br>            <span class="code-string">"HTML"</span>
+                            <br>        ]
+                            <br>    }
+                            <br>};
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title fade-up">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category fade-up">
+                    <h3 class="category-title">Video Editing</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">CapCut</span>
+                            <span class="skill-level">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-value="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Short Films</span>
+                            <span class="skill-level">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-value="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Motion Graphics</span>
+                            <span class="skill-level">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-value="80"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category fade-up">
+                    <h3 class="category-title">Photo Editing</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Canva</span>
+                            <span class="skill-level">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-value="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Snapseed</span>
+                            <span class="skill-level">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-value="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Photoshop</span>
+                            <span class="skill-level">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-value="80"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category fade-up">
+                    <h3 class="category-title">Web Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-level">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-value="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">CSS</span>
+                            <span class="skill-level">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-value="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-level">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-value="85"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category fade-up">
+                    <h3 class="category-title">Graphic Design</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Canva</span>
+                            <span class="skill-level">90%</span>    
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-value="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Photoshop</span>
+                            <span class="skill-level">85%</span>    
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-value="85"></div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section id="portfolio" class="portfolio-section">
+
+
+ <div class="container">
+        <h2 class="section-title" data-aos="fade-up">🌐 My Work Library</h2>
+        
+    <div class="tech-grid"></div>
+    <div class="tech-circle one"></div>
+    <div class="tech-circle two"></div>
+    
+    <div class="tech-lines">
+        <div class="tech-line" style="top: 15%; animation-delay: 0s;"></div>
+        <div class="tech-line" style="top: 35%; animation-delay: 3s;"></div>
+        <div class="tech-line" style="top: 65%; animation-delay: 6s;"></div>
+        <div class="tech-line" style="top: 85%; animation-delay: 9s;"></div>
+    </div>
+    
+    <div class="container">
+        <header class="portfolio-header">
+            <h2 class="portfolio-title">🌐 My Work Library</h2>
+            <p class="portfolio-description">Explore my diverse range of creative and technical projects, from stunning video edits and graphic designs to responsive web development and interactive presentations.</p>
+        </header>
+        
+        <div class="category-filter">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="video">🎬 Video Editing</button>
+            <button class="filter-btn" data-filter="design">🎨 Graphic Design</button>
+            <button class="filter-btn" data-filter="web">💻 Web Development</button>
+            <button class="filter-btn" data-filter="ppt">📊 PPT Making</button>
+        </div>
+        
+        <div class="portfolio-grid">
+            <!-- Video Editing Projects -->
+            <div class="portfolio-item" data-category="video">
+                <div class="portfolio-thumb">
+                    <img src="carbg.png" alt="Car Video Editing">
+                </div>
+                <div class="portfolio-content">
+                    <span class="portfolio-category">🎬 VIDEO EDITING</span>
+                    <h3 class="portfolio-title-item">Car Video Editing</h3>
+                    <div class="portfolio-tools">
+                        <span class="tool-tag">Capcut</span>
+                        <span class="tool-tag">Transitions</span>
+                        <span class="tool-tag">Color Grading</span>
+                        <span class="tool-tag">Cinematic</span>
+                    </div>
+                    <p class="portfolio-description-item">High-quality car editing video with cinematic transitions and professional audio editing.</p>
+                    <button class="portfolio-btn video-btn" data-video="https://www.instagram.com/reel/C90JZWrSIBx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                        <i class="fas fa-play"></i> Watch Video
+                    </button>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="video">
+                <div class="portfolio-thumb">
+                    <img src="end.png" alt="Instagram Reels Series">
+                </div>
+                <div class="portfolio-content">
+                    <span class="portfolio-category">🎬 VIDEO EDITING And VIDEOGRAPHY</span>
+                    <h3 class="portfolio-title-item">Instagram Reels Series</h3>
+                    <div class="portfolio-tools">
+                        <span class="tool-tag">CapCut</span>
+                        <span class="tool-tag">Sound Design</span>
+                        <span class="tool-tag">Trending Effects</span>
+                    </div>
+                    <p class="portfolio-description-item">Eye-catching short-form content with perfect timing engaging visuals with videography</p>
+                    <button class="portfolio-btn video-btn" data-video="https://www.instagram.com/reel/DI0wg6FSdmW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                        <i class="fas fa-play"></i> Watch reel
+                    </button>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="video">
+                <div class="portfolio-thumb">
+                    <img src="freshers.png" alt="Freshers Video Editing">
+                </div>
+                <div class="portfolio-content">
+                    <span class="portfolio-category">🎬 VIDEO EDITING</span>
+                    <h3 class="portfolio-title-item">Freshers Video Editing</h3>
+                    <div class="portfolio-tools">
+                        <span class="tool-tag">Capcut</span>
+                        <span class="tool-tag">Audio Edit</span>
+                        <span class="tool-tag">Trending Reels</span>
+                    </div>
+                    <p class="portfolio-description-item">Trending Reels showcasing the latest video editing techniques with graph speed control.</p>
+                    <button class="portfolio-btn video-btn" data-video="https://www.instagram.com/reel/DCJ5e2Es5S8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                        <i class="fas fa-play"></i> Watch Demo
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Graphic Design Projects -->
+            <div class="portfolio-item" data-category="design">
+                <div class="portfolio-thumb">
+                    <img src="logo1.jpg" alt="Brand Identity Package">
+                </div>
+                <div class="portfolio-content">
+                    <span class="portfolio-category">🎨 GRAPHIC DESIGN</span>
+                    <h3 class="portfolio-title-item">Logo Design</h3>
+                    <div class="portfolio-tools">
+                        <span class="tool-tag">Adobe Photoshop</span>
+                        <span class="tool-tag">Picsart</span>
+                        <span class="tool-tag">Brand Guidelines</span>
+                    </div>
+                    <p class="portfolio-description-item">Complete visual identity including logo, color palette, typography, and brand applications for a math coaching center.</p>
+                    <button class="portfolio-btn image-btn" data-img="logo1.jpg">
+                        <i class="fas fa-eye"></i> View Design
+                    </button>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="design">
+                <div class="portfolio-thumb">
+                    <img src="logo2.jpg" alt="Photography Logo">
+                </div>
+                <div class="portfolio-content">
+                    <span class="portfolio-category">🎨 GRAPHIC DESIGN</span>
+                    <h3 class="portfolio-title-item">photography logo</h3>
+                    <div class="portfolio-tools">
+                        <span class="tool-tag">Canva</span>
+                        <span class="tool-tag">Snapseed</span>
+                        <span class="tool-tag">Photoshop</span>
+                        <span class="tool-tag">Photoshop</span>
+                    </div>
+                    <p class="portfolio-description-item">Logo for a photography brand.</p>
+                    <button class="portfolio-btn image-btn" data-img="logo2.jpg">
+                        <i class="fas fa-eye"></i> View logo
+                    </button>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="design">
+                <div class="portfolio-thumb">
+                    <img src="flyer.jpg" alt="Event Promotion Materials">
+                </div>
+                <div class="portfolio-content">
+                    <span class="portfolio-category">🎨 GRAPHIC DESIGN</span>
+                    <h3 class="portfolio-title-item">Event Flyer</h3>
+                    <div class="portfolio-tools">
+                        <span class="tool-tag">Photoshop</span>
+                        <span class="tool-tag">Canva</span>
+                        <span class="tool-tag">Print Design</span>
+                    </div>
+                    <p class="portfolio-description-item">Comprehensive design package including posters, flyers and social media assets.</p>
+                    <button class="portfolio-btn image-btn" data-img="flyer.jpg">
+                        <i class="fas fa-eye"></i> View Design
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Web Development Projects -->
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-thumb">
+                    <img src="bday.png" alt="E-commerce Website">
+                </div>
+                <div class="portfolio-content">
+                    <span class="portfolio-category">💻 WEB DEVELOPMENT</span>
+                    <h3 class="portfolio-title-item">Cute Birthday wishing Website</h3>
+                    <div class="portfolio-tools">
+                        <span class="tool-tag">HTML5</span>
+                        <span class="tool-tag">CSS3</span>
+                        <span class="tool-tag">JavaScript</span>
+                    </div>
+                    <p class="portfolio-description-item">An super interactive and cute website for sending birthday wishes.</p>
+                    <button class="portfolio-btn website-btn" data-website="https://swastik-diff.github.io/yumi_birthday/">
+                        <i class="fas fa-globe"></i> Live Preview
+                    </button>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-thumb">
+                    <img src="port.png" alt="Portfolio Template">
+                </div>
+                <div class="portfolio-content">
+                    <span class="portfolio-category">💻 WEB DEVELOPMENT</span>
+                    <h3 class="portfolio-title-item">Portfolio Template</h3>
+                    <div class="portfolio-tools">
+                        <span class="tool-tag">HTML</span>
+                        <span class="tool-tag">CSS Grid</span>
+                        <span class="tool-tag">GitHub Pages</span>
+                    </div>
+                    <p class="portfolio-description-item">Clean and modern portfolio template with smooth scrolling and project filtering.</p>
+                    <button class="portfolio-btn website-btn" data-website="https://heaven-swastikFcycloo.github.io/portfolio_swastik/">
+                        <i class="fas fa-globe"></i> Live Preview
+                    </button>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-thumb">
+                    <img src="figma.png" alt="Landing Page Design">
+                </div>
+                <div class="portfolio-content">
+                    <span class="portfolio-category">💻 WEB Design</span>
+                    <h3 class="portfolio-title-item">Portfolio Design</h3>
+                    <div class="portfolio-tools">
+                        <span class="tool-tag">Figma</span>
+                        <span class="tool-tag">Animation</span>
+                    </div>
+                    <p class="portfolio-description-item">High-impact portfolio design with interactive elements and smooth transitions.</p>
+                    <button class="portfolio-btn website-btn" data-website="https://www.figma.com/design/G0iV5Y3Cl2q2Hoyq49LaRR/first-figma?node-id=0-1&t=qTAPWBDfP1hwIIDo-1">
+                        <i class="fas fa-globe"></i> Live Preview
+                    </button>
+                </div>
+            </div>
+            
+            <!-- PPT Making Projects -->
+            <div class="portfolio-item" data-category="ppt">
+                <div class="portfolio-thumb">
+                    <img src="ppt1.png" alt="Business Pitch Deck">
+                </div>
+                <div class="portfolio-content">
+                    <span class="portfolio-category">📊 PPT MAKING</span>
+                    <h3 class="portfolio-title-item">Hackathon presentation</h3>
+                    <div class="portfolio-tools">
+                        <span class="tool-tag">PowerPoint</span>
+                        <span class="tool-tag">Animation</span>
+                    </div>
+                    <p class="portfolio-description-item">Engaging presentation with dynamic animations and clear messaging, best for hackathons.</p>
+                    <button class="portfolio-btn download-btn" data-file="bytebandits.pptx">
+                        <i class="fas fa-download"></i> Download PPT
+                    </button>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="ppt">
+                <div class="portfolio-thumb">
+                    <img src="ppt2.png" alt="Interactive Training Module">
+                </div>
+                <div class="portfolio-content">
+                    <span class="portfolio-category">📊 PPT MAKING</span>
+                    <h3 class="portfolio-title-item">Web app presentation</h3>
+                    <div class="portfolio-tools">
+                        <span class="tool-tag">PowerPoint</span>
+                        <span class="tool-tag">Interactive Elements</span>
+                        <span class="tool-tag">Quizzes</span>
+                    </div>
+                    <p class="portfolio-description-item">Interactive web app presentation with quizzes and dynamic elements with immersive designs.</p>
+                    <button class="portfolio-btn download-btn" data-file="cyclo_pdf.pdf">
+                        <i class="fas fa-download"></i> Download PPT
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Image Popup -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modalImage" src="" alt="Enlarged View">
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title fade-up">Get In Touch</h2>
+            
+            <div class="contact-container">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p>West Bengal, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>swastikmanna2006@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="social-links">
+                        <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.instagram.com%2Fheaven_swastik%3Figsh%3DMW45c2FraGlpejVlcQ%253D%253D%26fbclid%3DPAZXh0bgNhZW0CMTEAAada571dwRcQ7XLOfFgTCwCCgRFNTtLQ5hxy6HZlR0H_qZyWYqn69_VhO-iHKA_aem_s2amxYFJXlD2IOgWfTRMiQ&e=AT143cx5wx7ModTQTDDAGjZNUa2Xm6Dw9apfnRVcjkP9xv04jndoBYONbcxA9VaiuXZKqWE6dVcexyDsNlieChXoGFC9egpZzvI86gRBcxSOii5xPG244So" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        
+                        <a href="https://github.com/heaven-swastik" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/swastik-manna-b09ba3301/" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <form action="https://formsubmit.co/swastikmanna2006@gmail.com" method="POST">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div id="footer-bg" class="footer-bg"></div>
+        <div class="container">
+            <div class="footer-content">
+                <p>Thank you for visiting my portfolio</p>
+                <p class="copyright">© 2025 Swastik Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+    <script src="script.js"></script>
+  
+   
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Filter functionality
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const portfolioItems = document.querySelectorAll('.portfolio-item');
+            
+            // Initialize animation for items
+            setTimeout(() => {
+                portfolioItems.forEach((item, index) => {
+                    setTimeout(() => {
+                        item.classList.add('visible');
+                    }, index * 100);
+                });
+            }, 300);
+            
+            // Filter click event
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    // Hide all items first
+                    portfolioItems.forEach(item => {
+                        item.style.opacity = '0';
+                        item.style.transform = 'translateY(30px)';
+                        setTimeout(() => {
+                            item.style.display = 'none';
+                        }, 300);
+                    });
+                    
+                    // Show filtered items
+                    setTimeout(() => {
+                        portfolioItems.forEach((item, index) => {
+                            const itemCategory = item.getAttribute('data-category');
+                            
+                            if (filterValue === 'all' || filterValue === itemCategory) {
+                                item.style.display = 'block';
+                                setTimeout(() => {
+                                    item.style.opacity = '1';
+                                    item.style.transform = 'translateY(0)';
+                                }, index * 100);
+                            }
+                        });
+                    }, 300);
+                });
+            });
+            
+            // 3D hover effect
+            portfolioItems.forEach(item => {
+                item.addEventListener('mousemove', function(e) {
+                    const rect = this.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    
+                    const centerX = rect.width / 2;
+                    const centerY = rect.height / 2;
+                    
+                    const moveX = (x - centerX) / 20;
+                    const moveY = (y - centerY) / 20;
+                    
+                    this.style.transform = `translateY(-5px) rotateX(${-moveY}deg) rotateY(${moveX}deg)`;
+                    
+                    // Dynamic shadow effect
+                    const shadowX = moveX * 2;
+                    const shadowY = moveY * 2;
+                    this.style.boxShadow = `
+                        ${shadowX}px ${shadowY}px 25px rgba(0, 0, 0, 0.3),
+                        0 0 20px var(--glow-secondary),
+                        0 0 40px rgba(12, 250, 245, 0.1)
+                    `;
+                });
+                
+                item.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0) rotateX(0) rotateY(0)';
+                    this.style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.2)';
+                });
+            });
+        });
+    </script>
+    <script>
+    
+document.querySelectorAll(".portfolio-btn").forEach((btn, index) => {
+  btn.addEventListener("click", () => {
+    const image = btn.closest(".portfolio-item").querySelector("img").src;
+    const modal = document.getElementById("image-modal");
+    const modalImg = document.getElementById("modal-image");
+    modal.style.display = "block";
+    modalImg.src = image;
+  });
+});
+
+document.querySelector(".modal-close").addEventListener("click", () => {
+  document.getElementById("image-modal").style.display = "none";
+});
+</script>
+
+     <script>
+        // Filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Filter buttons
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const portfolioItems = document.querySelectorAll('.portfolio-item');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // Remove active class from all buttons
+                    filterBtns.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    btn.classList.add('active');
+                    
+                    const filterValue = btn.getAttribute('data-filter');
+                    
+                    portfolioItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Image Modal
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            const closeModal = document.querySelector('.close-modal');
+            const imageBtns = document.querySelectorAll('.image-btn');
+            
+            imageBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    modal.style.display = 'block';
+                    modalImg.src = btn.getAttribute('data-img');
+                });
+            });
+            
+            closeModal.addEventListener('click', () => {
+                modal.style.display = 'none';
+            });
+            
+            window.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    modal.style.display = 'none';
+                }
+            });
+            
+            // Video Buttons
+            const videoBtns = document.querySelectorAll('.video-btn');
+            videoBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const videoUrl = btn.getAttribute('data-video');
+                    window.open(videoUrl, '_blank');
+                });
+            });
+            
+            // Website Buttons
+            const websiteBtns = document.querySelectorAll('.website-btn');
+            websiteBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const websiteUrl = btn.getAttribute('data-website');
+                    window.open(websiteUrl, '_blank');
+                });
+            });
+            
+            // Download Buttons
+            const downloadBtns = document.querySelectorAll('.download-btn');
+            downloadBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const filename = btn.getAttribute('data-file');
+                    
+                    // Create a temporary anchor element to trigger download
+                    const link = document.createElement('a');
+                    link.href = filename; // Path to your PPT file
+                    link.download = filename;
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                });
+            });
+        });
+    </script>
+
+        <style>
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 999;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+        
+        .modal-content {
+            margin: 5% auto;
+            display: block;
+            width: 80%;
+            max-width: 900px;
+            position: relative;
+        }
+        
+        #modalImage {
+            width: 100%;
+            height: auto;
+        }
+        
+        .close-modal {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            color: #fff;
+            font-size: 35px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</body>
+</html>
